@@ -61,8 +61,85 @@ body {
 }
 
 .header {
-  background-color: blue;
   grid-column: 2;
+  background-color: white;
+
+  display: grid;
+  grid-template-rows: 1fr 1.2fr;
+}
+
+.header-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+  gap: 20px;
+}
+
+#search-icon {
+  height: 25px;
+}
+
+#searchbar {
+  height: 30px;
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+}
+
+#notification-icon {
+  height: 25px;
+}
+
+.search,
+.profile-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#profile-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.header-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 50px;
+}
+
+.user-greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+#profile-big {
+  height: 70px;
+  border-radius: 35px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header-button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
 }
 
 .main {
