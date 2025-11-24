@@ -68,6 +68,8 @@ body {
 
   display: grid;
   grid-template-rows: 1fr 1.2fr;
+  box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.262);
+  z-index: 1;
 }
 
 .header-upper {
